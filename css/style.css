@@ -7,7 +7,7 @@ body{
 }
 .top-head{
     display: flex;
-
+    padding-bottom: 100px;
   
 }
 .head{
@@ -40,4 +40,26 @@ body{
     border-radius: 10px;
     margin-bottom: 15px;
     text-decoration: none;
+}
+
+.flex-box{
+    box-shadow: 10px 1px 40px grey;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: left 3%;
+    border-left: 10px solid blue;
+    border-radius: 10px;
+    width: 60%;
+}
+#box-header{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+#border-red{ border-left: 10px solid red;
+
+}
+#border-orange{ 
+    border-left: 10px solid orange;
+
 }
